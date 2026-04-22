@@ -53,7 +53,7 @@ Burn to CD/DVD/USB and boot on your machine. UEFI and legacy BIOS are supported.
 - LANGUAGE: US English
 - LOCALE: en-US
 - ROOT: disabled
-- USER: (initalized by user). Sudo enabled.
+- USER: (initialized by user). Sudo enabled.
 
 # INSTALLED SOFTWARE
 List of packages included in the Live CD/USB build. Note different desktop environments will have different package combinations:
@@ -81,10 +81,10 @@ List of packages included in the Live CD/USB build. Note different desktop envir
 - eza (enhanced ls)
 - ssh (secure shell)
 - sshfs (terminal remote filesystem mount via secure shell)
-- gocryptfs (terminal fuse-based file/folder encryption)
-- cryfs (terminal hardened fuse-based file/folder encryption)
-- cryptsetup (terminal LUKS2 encryption suite)
-- pwgen (terminal password generator)
+- gocryptfs (terminal userspace encryption)
+- cryfs (terminal hardened userspace encryption)
+- cryptsetup (terminal LUKS2 encryption)
+- pwgen (terminal secure password generator)
 - nnn (terminal file manager)
 - doxx (terminal docx viewer)
 - pipx (python package manager)
@@ -108,4 +108,4 @@ List of packages included in the Live CD/USB build. Note different desktop envir
 Please review the Debian 13 LiveCD/USB bootable OS build script carefully. NEVER run a script blindly without understanding what it could do. Don't trust me. Google around to find out more. Research, research, research.
 
 # LEGAL
-Please note I am not responsible or liable for any damages or losses arising from your use or inability to use the script and or software used under this script. You are responsible for your use of this script. If you harm someone or get into a dispute with someone else, I will not be involved.
+Please note that by downloading and running this script you acknowledge that I am not responsible or liable for any damages or losses arising from your use or inability to use the script and or software used under this script. You are solely responsible for your use of this script. If you harm someone or get into a dispute with someone else, you consent to me waiving any involvement.
