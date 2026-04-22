@@ -38,7 +38,7 @@ Anything less will make the user experience a real struggle. I would recommend a
 Also note that the build script can only be built from either Debian or Ubuntu-based linux desktop environments. Other linux derivatives such as Arch or Slackware are not supported and build will probably fail.
 
 # INSTALLATION
-To install, make executable and run script:
+To install, make executable and run script on a debian-based linux system:
 
 chmod +x "livecd-build-script-multi-desktop-github-2.20.sh"
 
@@ -47,7 +47,7 @@ sudo ./"livecd-build-script-multi-desktop-github-2.20.sh"
 
 Build ISO is saved to your home directory ($HOME/LIVE_BOOT). SHA256 hash is generated if you want to distribute and check authenticity.
 
-Burn to CD/DVD/USB and boot on your machine. UFEI and legacy BIOS are supported.
+Burn to CD/DVD/USB and boot on your machine. UEFI and legacy BIOS are supported.
 
 # DEFAULT SETTINGS
 - LANGUAGE: US English
