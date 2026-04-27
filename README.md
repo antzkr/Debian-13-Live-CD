@@ -7,11 +7,13 @@ April 2026:
 Public release
 
 
-# RATIONALE
+# PURPOSE
 This script creates a bootable ISO image of Debian 13 desktop which can be burned to a CD or booted from a USB. A 'one-click' solution for those who don't want to bother with complex configurations using the standard live build tools available, like lb build.
 
 Just run this bash script, grab a coffee and come back in about 10 mins to a full ISO image ready to use.
 
+
+# RATIONALE
 It's designed for secure work in an isolated environment, such as examining malicious code or crypto-currency managment offline. However this script was NOT designed to create an OS for anonymous web-browsing, masking IP locations, deep-web use etc. That is out of scope so I'd recommend using a different OS (hint: use Tails instead).
 
 This Live CD/USB bootable OS runs completely from RAM. So files created during a session will not be saved and irreversibly deleted, unless moved to a seperate disk. The purpose of this script is for you to build your own custom Live CD/USB bootable OS so you don't have to trust anybody else's distribution. You built it so you know what's in it.
