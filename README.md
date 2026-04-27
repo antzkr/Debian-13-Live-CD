@@ -1,7 +1,10 @@
 # Debian 13 Live CD/USB build bash script
 Version 2.21
 
+Changelog:
+
 April 2026
+Public release
 
 
 # RATIONALE
