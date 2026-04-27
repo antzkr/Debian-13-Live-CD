@@ -1,14 +1,13 @@
 # Debian 13 Live CD/USB build bash script
 Version 2.21
 
-Changelog:
-
+Changelog:-
 April 2026: 
 Public release
 
 
 # PURPOSE
-This script creates a bootable ISO image of Debian 13 desktop which can be burned to a CD or booted from a USB. A 'one-click' solution for those who don't want to bother with complex configurations using the standard live build tools available, like lb build.
+This script creates a bootable ISO image of Debian 13 desktop system which can be burned to a CD or booted from a USB. A 'one-click' solution for those who don't want to bother with complex configurations using the standard live build tools available, like lb build.
 
 Just run this bash script, grab a coffee and come back in about 10 mins to a full ISO image ready to use.
 
