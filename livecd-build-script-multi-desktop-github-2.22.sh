@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# v2.21
+# v2.22
 
 ######################################################################
 # Script to build a bootable live CD / USB using Debian 13 x64 base  #
